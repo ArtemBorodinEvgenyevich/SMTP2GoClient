@@ -1,0 +1,5 @@
+receiver: "temych02@gmail.com"
+subject: "Congratulations from a new smtp client!"
+text-plain: "attachments/files/mail.txt"
+text-html: "attachments/files/mail.html"
+attachment: "attachments/files/kitten.png"

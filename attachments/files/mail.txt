@@ -1,0 +1,5 @@
+Hello there!
+This is a test message from a SMTP client.
+Please do not reply.
+
+Have a good day!
