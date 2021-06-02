@@ -3,8 +3,8 @@ from GetConfigs import GetConfigs
 
 if __name__ == '__main__':
     configs = GetConfigs("attachments/mail-config.yml")
-    smtp_client = SMTPClient("YOUR-MAIL-SERVER", "LOGIN",
-                             "PASSWORD", "RECEIVER-MAIL")
+    smtp_client = SMTPClient("mail.smtp2go.com", "e-boroda.org",
+                             "10Lafagi", "artem@e-boroda.org")
 
     smtp_client.add_text_plain(configs.text_plain)
     smtp_client.add_text_html(configs.text_html)
